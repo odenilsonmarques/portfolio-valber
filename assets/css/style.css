@@ -1,0 +1,44 @@
+.navbar a.navbar-brand 
+{
+    color: #fff;
+    font-weight: bold;   
+    font-size: 18px;
+    margin-top: 12px;
+
+}
+.navbar a.navbar-brand:hover
+{
+    color: #F4EEA9;
+}
+.navbar-expand-sm .navbar-nav > li > a {
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.navbar-expand-sm .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-expand-sm .navbar-nav .nav-link:hover{
+    color: #FAFFAF;
+    text-decoration: underline;
+}
+
+
+
+
+
+.hero{
+    /* border: 1px solid black; */
+    background-color: #54B435;
+    color: #fff;
+    height: 320px;   
+    margin-bottom: 250px;
+}
+.text-hero{
+    margin-top: 40px;
+    text-shadow: 2px 2px 5px #111;
+    text-align: center;
+    
+
+    /* border: 1px solid black; */
+}
