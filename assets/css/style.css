@@ -1,24 +1,14 @@
-/* .navbar a.navbar-brand 
-{
-    color: #fff;
-    font-weight: bold;   
-    
 
-} */
-/* .navbar a.navbar-brand:hover
-{
-    color: #F4EEA9;
-} */
 .navbar-expand-sm .navbar-nav > li > a {
     font-size: 15px;
-    /* margin-top: 5px; */
-    /* font-weight: bold; */
 }
-.navbar-expand-sm .navbar-nav .nav-link{
-    color: #fff;
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #B3541E;
 }
+
+
 .navbar-expand-sm .navbar-nav .nav-link:hover{
-    color: #FAFFAF;
     text-decoration: underline;
 }
 
@@ -27,20 +17,46 @@
 }
 
 .hero{
-    /* border: 1px solid black; */
+    /* border: 1px solid #fff; */
    
     color: #fff;
-    height: 320px; 
+    height: 450px; 
 
 }
 
 .hero h1{
-    font-size: 45px;
+    font-size: 50px;
     color: #fff;
 }
 
 .hero h1, p{
-    margin-top:100px;
-    margin-left:20px;
+    margin-top:-70px;
+    margin-left:40px;
+}
+
+.hero p{
+    color: #B3541E;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra borrada */
+    font-size: 20px;
+
+}
+
+.viola img{
+    margin-top:40px;
+}
+
+.claves img{
+    margin-top:70px;
+    border-radius: 20px;
+
+    opacity: 9; /* Define a opacidade (0.0 a 1.0, onde 1.0 é totalmente opaco) */
+    filter: grayscale(100%); /* Aplica o filtro de escala de cinza */
+
+
+    border: 5px solid #E55807; /* Cor da borda da moldura */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   
+   
+    overflow: hidden; /* Certifique-se de que a imagem não saia da moldura */
 }
 

@@ -43,11 +43,16 @@
         <div class="container-full">
             <div class="container">
                 <div class="row hero">
-                    <div class="col-lg-6">
-                        <h1>Valber Brito</h1>
+                    <div class="col-lg-6 viola">
+                        <img src="assets/img/viola.png" alt="" width="400" height="200" class="img-responsive">
+                        <h1 id="text-container"></h1>
                         <p>Guitarrista e Violonista</p>
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6 text-center claves">
+                        <!-- <img src="assets/img/music.png" alt="" width="250" height="200" class="img-responsive "> -->
+                        
+                        <img src="assets/img/v.jpeg" alt="" width="250" height="300" class="img-responsive ">
+                    </div>
                 </div>
            </div>
         </div>
@@ -55,3 +60,22 @@
 </body>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const textElement = document.getElementById('text-container');
+        const textToType = "Valber Brito";
+        let index = 0;
+
+        function typeText() {
+            if (index < textToType.length) {
+                textElement.textContent += textToType.charAt(index);
+                index++;
+                setTimeout(typeText, 200); // Velocidade de digitação (em milissegundos)
+            }
+        }
+
+        typeText();
+    });
+</script>
