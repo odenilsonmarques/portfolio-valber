@@ -4,7 +4,8 @@
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #B3541E;
+    color: #FBCA74;
+    
 }
 
 
@@ -35,9 +36,10 @@
 }
 
 .hero p{
-    color: #B3541E;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra borrada */
-    font-size: 20px;
+    color: #FBCA74;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    
 
 }
 
