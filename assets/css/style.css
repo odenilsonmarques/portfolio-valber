@@ -1,69 +1,133 @@
-
-.navbar-expand-sm .navbar-nav > li > a {
+.navbar-expand-sm .navbar-nav>li>a {
     font-size: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link {
     color: #FBCA74;
-    
+
 }
 
-
-.navbar-expand-sm .navbar-nav .nav-link:hover{
+.navbar-expand-sm .navbar-nav .nav-link:hover {
     text-decoration: underline;
 }
 
-.hero-main{
+.hero-main {
     background-color: #2C3333;
 }
 
-.hero{
+.hero {
     /* border: 1px solid #fff; */
-   
     color: #fff;
-    height: 450px; 
-
+    height: 560px;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 50px;
     color: #fff;
 }
 
-.hero h1, p{
-    margin-top:-70px;
-    margin-left:40px;
+.hero h1,
+p {
+    margin-top: -70px;
+    margin-left: 40px;
 }
 
-.hero p{
+.hero p {
     color: #FBCA74;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     font-size: 22px;
-    
-
 }
 
-#text-portfolio{
+#text-portfolio {
     font-size: 15px;
     color: #fff;
 }
 
-.viola img{
-    margin-top:40px;
+.viola img {
+    margin-top: 40px;
 }
 
-.claves img{
-    margin-top:70px;
+.claves img {
+    margin-top: 70px;
     border-radius: 20px;
-
-    opacity: 9; /* Define a opacidade (0.0 a 1.0, onde 1.0 é totalmente opaco) */
-    filter: grayscale(100%); /* Aplica o filtro de escala de cinza */
-
-
-    border: 5px solid #E55807; /* Cor da borda da moldura */
+    opacity: 9;
+    filter: grayscale(100%);
+    border: 5px solid #E55807;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-   
-   
-    overflow: hidden; /* Certifique-se de que a imagem não saia da moldura */
+    overflow: hidden;
+}
+.section-biografia{
+    background-color: #fff;
+    height: 470px;
 }
 
+.section-biografia h1 {
+    font-size: 25px;
+}
+
+
+
+.background-div{
+    position: relative;
+    text-align: center;
+}
+
+.background-div img{
+    margin-top: 120px;
+    opacity: 0.1;
+    
+}
+
+
+.biografia{
+    position: absolute; top: 0; left: 0;
+}
+
+
+
+.biografia h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.biografia p{
+    /* text-align: center; */
+    margin-top: 50px;
+    font-size: 17px;
+    color: #161a1a;
+}
+
+.texto-curto{
+    max-height: 410px; /* Altura máxima para o texto encurtado */
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.texto-completo {
+    display: none; /* Inicialmente, o texto completo está oculto */
+}
+
+.mostrar-mais {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    text-align: right; 
+    padding-top: -20px;
+    
+}
+
+.master-class{
+    padding-top: 70px;
+}
+
+.sombra-personalizada {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    
+  }
+
+  .card-body{
+    background-color: #2C3333;
+    color: #FBCA74;
+    font-size: 18px;
+  }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:#2C3333">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo5.png" alt="" width="100" height="70" >
+                    <img src="assets/img/logo5.png" alt="" width="100" height="70">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <nav class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
@@ -48,37 +51,95 @@
                         <h1 id="text-container"></h1>
                         <p>Guitarrista e Violonista</p>
                         <p id="text-portfolio">
-                            Bem-vindo ao meu portfólio oficial, o lugar onde você pode explorar minha jornada musical e mergulhar na minha paixão pela música. Aqui, você encontrará uma coleção de minhas experiências, projetos e criações musicais ao longo dos anos.
+                            Bem-vindo ao meu portfólio oficial, o lugar onde você pode explorar minha jornada musical e
+                            mergulhar na minha paixão pela música. Aqui, você encontrará uma coleção de minhas
+                            experiências, projetos e criações musicais ao longo dos anos.
                         </p>
                     </div>
                     <div class="col-lg-6 text-center claves">
                         <!-- <img src="assets/img/music.png" alt="" width="250" height="200" class="img-responsive "> -->
-                        
+
                         <img src="assets/img/v.jpeg" alt="" width="250" height="300" class="img-responsive ">
                     </div>
                 </div>
-           </div>
+            </div>
         </div>
     </section>
+
+    <section class="section-biografia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 background-div">
+                    <img src="assets/img/clave.png" alt="">
+                    <div class="biografia">
+                        <h1>Biografia</h1>
+                        <div class="texto-curto">
+                            <p>
+                                Minha relação com a música inicia-se no início da década de 1990 em São
+                                Luís do Maranhão. As primeiras aulas de violão foram através do simpósio
+                                de Música na igreja Batista.
+                                Anos mais tarde, comecei a tocar Guitarra no Grupo de Música da igreja e a
+                                buscar mais conhecimento nessa arte, além disso, tive o privilégio de receber
+                                boas orientações e dicas do grande guitarrista Wagner Santos.
+                                Em 1995, Ingressei na Escola de Música do Estado do Maranhão Liah
+                                Lisboa Araújo (EMEM), onde tive meu primeiro contato formal com o
+                                aprendizado da Música.
+                                Em 1996, começei a tocar profissionalmente em algumas bandas e casas
+                                noturnas, e já no período de 1997 a 1998, iniciei meus estudos no campo da
+                                Improvisação Melódica com o professor e guitarrista Jessivaldo Silva.
+
+                                <span class="texto-completo">
+                                    inda no final da década de 90, comecei a me interessar por Rock e Jazz
+                                    Fusion, ouvia e pesquisava sobre obras de grandes guitarristas como: Frank
+                                    Gambale, Scott Henderson, Pat Metheny, Steve Vai, Joe Satriane, Víctor
+                                    Biglione, Mozart Mello, Pollaco, Faiska. Tais influências, me levaram a iniciar
+                                    uma jornada de estudo e treino da Guitarra, o que, mais tarde, definiria
+                                    minha maneira de tocar e expressar-me com estilo musical personalizado.
+                                    No início dos anos 2000, eu já participava de algumas atividades musicais
+                                    em âmbito profissional e em igrejas, como gravações e festivais.
+                                    no período de 2002 a 2018, participei da maioria das edições do importante
+                                    Festival Internacional de Contrabaixo, em que fui músico integrante de
+                                    grupos selecionados para Abertura do Festival.
+                                </span>
+                            </p>
+                            <p class="mostrar-mais">Veja mais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row master-class">
+                <h3 class="mb-5 text-center">Professor e orientador empirico,<br> nas areas de Improvisação melódica</h3>
+                <div class="col-sm-6">
+                    <div class="card sombra-personalizada">
+                      <div class="card-body">
+                        <!-- <h5 class="card-title">Master classe</h5> -->
+                        <p class="card-text">Tema: Composição de Trilhas e Harmonias.</p>
+                        <p class="card-text">Função: palestrante</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card sombra-personalizada">
+                      <div class="card-body">
+                        <!-- <h5 class="card-title">Master classe</h5> -->
+                        <p class="card-text">Tema: Abordagem Progressiva do Básico ao Avançado.</p>
+                        <p class="card-text">Função: palestrante</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
 </body>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/animate-text.js"></script>
+<script src="assets/js/dispaly-text.js"></script>
+
+
 </html>
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const textElement = document.getElementById('text-container');
-        const textToType = "Valber Brito";
-        let index = 0;
-
-        function typeText() {
-            if (index < textToType.length) {
-                textElement.textContent += textToType.charAt(index);
-                index++;
-                setTimeout(typeText, 200); // Velocidade de digitação (em milissegundos)
-            }
-        }
-
-        typeText();
-    });
-</script>
