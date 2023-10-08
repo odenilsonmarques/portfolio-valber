@@ -58,7 +58,7 @@ p {
 }
 .section-biografia{
     background-color: #fff;
-    height: 470px;
+    /* height: 470px; */
 }
 
 .section-biografia h1 {
@@ -93,7 +93,7 @@ p {
 
 .biografia p{
     /* text-align: center; */
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 17px;
     color: #161a1a;
 }
@@ -117,17 +117,35 @@ p {
     
 }
 
-.master-class{
-    padding-top: 70px;
+.section-shows{
+    background-color: #2C3333;
+    margin-top: 70px;
 }
 
-.sombra-personalizada {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
-    
-  }
+.section-shows h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;   
+    color: #fff;
+}
 
-  .card-body{
-    background-color: #2C3333;
-    color: #FBCA74;
-    font-size: 18px;
-  }
+.show{
+    border:1px solid #FBCA74;
+}
+
+
+.teste{
+    /* margin-right: 1px; */
+    /* border: 1px solid red; */
+    text-align: center;
+    /* margin-left: 1px; */
+}
+
+.section-shows h5{
+    color: #fff;
+    margin-top: 60px;
+    font-size: 13px;
+    margin-bottom: 20px;
+   
+    
+} 
