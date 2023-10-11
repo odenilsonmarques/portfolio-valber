@@ -98,28 +98,37 @@ p {
     color: #161a1a;
 }
 
-.texto-curto{
+.small-text{
     max-height: 410px; /* Altura máxima para o texto encurtado */
     overflow: hidden;
     /* border: 1px solid red; */
 }
 
-.texto-completo {
+.full-text {
     display: none; /* Inicialmente, o texto completo está oculto */
 }
 
-.mostrar-mais {
+.read-more {
     cursor: pointer;
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-align: right; 
     padding-top: -20px;
+    
+}
+
+.read-more:hover {
+    cursor: pointer;
+    color: #FBCA74;
+    text-decoration: underline;
+
     
 }
 
 .section-shows{
     background-color: #2C3333;
     margin-top: 70px;
+    padding-bottom: 100px;
 }
 
 .section-shows h1{
@@ -145,7 +154,21 @@ p {
     color: #fff;
     margin-top: 60px;
     font-size: 13px;
-    margin-bottom: 20px;
-   
-    
+    margin-bottom: 20px; 
 } 
+
+.show-more {
+    cursor: pointer;
+    color: #fff;
+    /* text-decoration: underline; */
+    text-align: right; 
+    padding-top: 30px;
+    
+}
+.show-more:hover {
+   
+    color: #FBCA74;
+    text-decoration: underline;
+    
+    
+}

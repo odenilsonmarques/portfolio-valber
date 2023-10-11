@@ -1,6 +1,6 @@
 
-const mostrarMaisBotao = document.querySelector('.mostrar-mais');
-const textoCompleto = document.querySelector('.texto-completo');
+const mostrarMaisBotao = document.querySelector('.read-more');
+const textoCompleto = document.querySelector('.full-text');
 
 mostrarMaisBotao.addEventListener('click', function () {
     if (textoCompleto.style.display === 'none' || textoCompleto.style.display === '') {
