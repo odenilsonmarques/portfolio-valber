@@ -14,7 +14,7 @@
 }
 
 .hero-main {
-    background-color: #0F0F0F;
+    background-color: #272829;
 }
 
 .hero {
@@ -52,7 +52,7 @@
 .claves img {
     margin-top: 70px;
     border-radius: 20px;
-    opacity: 9;
+    opacity: 1;
     filter: grayscale(100%);
     border: 5px solid #E55807;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -124,7 +124,7 @@
 }
 
 .section-shows {
-    background-color: #0F0F0F;
+    background-color: #272829;
     /* margin-top: 50px; */
     padding-bottom: 100px;
     text-align: center;
@@ -224,4 +224,29 @@
 .section-contacts span{
     font-size: 16px;
     color: #0F0F0F;
+}
+
+
+
+
+.section-footer{
+    background-color: #272829;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+.section-footer h2{
+    padding-top: 40px;
+    color: #ffc107;
+}
+    
+.footer-text{
+
+    padding-top: 20px;
+    color: #ededed;
+}
+
+.developed-by{
+    font-size: 12px;
+    padding-top: 20px;
 }
