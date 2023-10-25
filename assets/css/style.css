@@ -65,7 +65,7 @@ p {
 
 
 .section-biografia {
-    background-color: #fff;
+    background-color: #f8f9fa;
     margin-bottom: 100px;
 }
 
@@ -118,24 +118,26 @@ p {
 
 .read-more {
     cursor: pointer;
-    color: #ffc107;
+    color: #272829;
     /* text-align: left; */
     padding-top: -20px;
-    /* border: 1px solid red; */
+    border: 1px solid #ffc107;
     float: left;
     margin-left: 40px;
-    border-radius: 10px;
-    padding: 7px;
-    background-color: #272829;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #fafafa;
     text-decoration: none;
 
 }
 
 .read-more:hover {
     cursor: pointer;
-    color: #272829;
+    color: #f8f9fa;
     /* text-decoration: underline; */
     background-color: #ffc107;
+    border: 1px solid #f8f9fa;
+    
 }
 
 .section-shows {
@@ -143,6 +145,7 @@ p {
     /* margin-top: 50px; */
     padding-bottom: 100px;
     text-align: center;
+    
 }
 
 .section-shows h1 {
