@@ -21,8 +21,7 @@
 .hero {
     color: #fff;
     height: 560px;
-
-
+    animation: fadeInLeft 2s 
 }
 
 .hero h1 {
@@ -65,8 +64,8 @@ p {
 
 
 .section-biografia {
-    /* background-color: #f8f9fa; */
-    background-color: #111;
+    background-color: #f8f9fa;
+    /* background-color: #111; */
     margin-bottom: 100px;
     height: 480px;
 
@@ -107,8 +106,8 @@ p {
     font-size: 16px;
     line-height: 1.6;
     text-align: left;
-    /* color: #111111; */
-    color: #ededed;
+    color: #111111;
+    /* color: #ededed; */
     margin-bottom: 15px;
 }
 
@@ -273,4 +272,24 @@ p {
 .developed-by {
     font-size: 12px;
     padding-top: 20px;
+}
+
+
+
+
+/* css padão para aplicação do efeito de transação */
+@keyframes fadeInLeft
+{
+  0%{
+      opacity:0;
+      /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
+      -webkit-transform:translateX(-100px); 
+      -ms-transform:translateX(-100px);
+      transform:translateX(-100px)}
+  100%{
+      opacity:1;
+      -webkit-transform:translateX(0);
+      -ms-transform:translateX(0);
+      transform:translateX(0)
+  }
 }
