@@ -58,8 +58,8 @@ p {
     border-radius: 20px;
     opacity: 1;
     filter: grayscale(100%);
-    /* border: 5px solid #E55807; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    border: 5px solid #E55807;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
