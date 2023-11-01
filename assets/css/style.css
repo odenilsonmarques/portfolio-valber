@@ -15,6 +15,7 @@
 .hero-main {
     background-color: #272829;
     /* background: linear-gradient(to bottom, #272829, #0e0e0e, transparent);  */
+    padding-top: 130px;
 
 }
 
@@ -74,6 +75,7 @@ p {
     /* background-color: #111; */
     /* margin-bottom: 10px; */
     height: 480px;
+    padding-top: 100px;
 
 }
 
@@ -155,6 +157,7 @@ p {
     /* margin-top: 50px; */
     padding-bottom: 200px;
     text-align: center;
+    padding-top: 100px;
 
 }
 
@@ -221,6 +224,7 @@ p {
     background-color: #fff;
     padding-bottom: 70px;
     /* border: 1px solid red; */
+    padding-top: 100px;
 
 
 }
@@ -320,6 +324,7 @@ p {
     padding-bottom: 100px;
     text-align: center;
     background-color: #fff;
+    padding-top: 100px;
 }
 
 
