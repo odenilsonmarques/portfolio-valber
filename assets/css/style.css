@@ -74,7 +74,7 @@ p {
     background-color: #f8f9fa;
     /* background-color: #111; */
     /* margin-bottom: 10px; */
-    height: 480px;
+    height: 570px;
     padding-top: 100px;
 
 }
@@ -364,6 +364,7 @@ p {
 .developed-by {
     font-size: 12px;
     padding-top: 20px;
+    color:#ffc107;
 }
 
 
