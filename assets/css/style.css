@@ -73,7 +73,7 @@ p {
     /* margin-bottom: 10px; */
     border:1px solid red;
     height: 570px;
-    padding-top: 50px;
+    padding-top: 60px;
 
 }
 
@@ -153,9 +153,9 @@ p {
 .section-shows {
     background-color: #f8f9fa;
     /* margin-top: 50px; */
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
 
 }
 
@@ -217,7 +217,7 @@ p {
     background-color: #fff;
     padding-bottom: 70px;
     border: 1px solid #0F0F0F;
-    padding-top: 50px;
+    padding-top: 60px;
 
 
 }
@@ -317,7 +317,7 @@ p {
     padding-bottom: 100px;
     text-align: center;
     background-color: #fff;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 
@@ -349,7 +349,6 @@ p {
 }
 
 .footer-text {
-
     padding-top: 20px;
     color: #ededed;
 }

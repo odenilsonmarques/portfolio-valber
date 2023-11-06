@@ -115,4 +115,12 @@
   margin-top: 10px;
   font-size: 25px;
 }
+
+.section-footer h2{
+  font-size: 16px;
+}
+
+p.copy{
+  font-size: 12px;
+}
 }
