@@ -19,7 +19,7 @@
 .hero {
     color: #fff;
     height: 560px;
-    animation: fadeInLeft 2s ;
+    animation: fadeInLeft 2s;
 }
 
 .hero h1 {
@@ -46,7 +46,7 @@ p {
     color: #fff;
 }
 
-#social-media{
+#social-media {
     margin-left: 45px;
 }
 
@@ -74,7 +74,7 @@ p {
     margin-top: 40px;
 }
 
-.section-biografia p{
+.section-biografia p {
     font-family: sans-serif;
     text-align: justify;
     margin-top: 40px;
@@ -139,7 +139,7 @@ p {
 }
 
 .show:hover {
-     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .section-shows h5 {
@@ -194,8 +194,10 @@ p {
 .carousel {
     margin-top: 60px;
 }
+
 .carousel-item img {
-    opacity: 0.7; /* Altere o valor para ajustar a transparência desejada */
+    opacity: 0.7;
+    /* Altere o valor para ajustar a transparência desejada */
 }
 
 .carousel-item {
@@ -209,7 +211,8 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Cor e transparência da sobreposição */
+    background: rgba(0, 0, 0, 0.5);
+    /* Cor e transparência da sobreposição */
     pointer-events: none;
 }
 
@@ -227,26 +230,27 @@ p {
 }
 
 .image-container:hover img {
-    transform: scale(1.1); /* Aumenta o tamanho da imagem ao passar o mouse */
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem ao passar o mouse */
 }
 
 /* style contact */
-.contact-button a{
+.contact-button a {
     cursor: pointer;
     color: #272829;
     margin-left: 50px;
     border-radius: 25px;
     padding: 12px;
-    background-color:  #ffc107;
+    background-color: #ffc107;
     text-decoration: none;
     font-weight: bold;
 }
 
-.contact-button a:hover{
+.contact-button a:hover {
     cursor: pointer;
     color: #272829;
     border: 1px solid #272829;
-    background-color:  #fafafa;
+    background-color: #fafafa;
     text-decoration: none;
 }
 
@@ -287,18 +291,21 @@ p {
 
 
 /* css padão para aplicação do efeito de transação */
-@keyframes fadeInLeft
-{
-  0%{
-      opacity:0;
-      /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
-      -webkit-transform:translateX(-100px); 
-      -ms-transform:translateX(-100px);
-      transform:translateX(-100px)}
-  100%{
-      opacity:1;
-      -webkit-transform:translateX(0);
-      -ms-transform:translateX(0);
-      transform:translateX(0)
-  }
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
+        -webkit-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        transform: translateX(-100px)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
 }
+
+
