@@ -1,19 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const readMoreButton = document.getElementById('read-more');
+    const hiddenContent = document.querySelector('.section-biografia .hidden');
+    const content = document.querySelector('.section-biografia .content');
 
-const mostrarMaisBotao = document.querySelector('.read-more');
-const textoCompleto = document.querySelector('.full-text');
-
-
-
-mostrarMaisBotao.addEventListener('click', function () {
-    if (textoCompleto.style.display === 'none' || textoCompleto.style.display === '') {
-        textoCompleto.style.display = 'inline';
-        mostrarMaisBotao.textContent = 'Veja menos';
-        sectionProduct.style
-    } else {
-        textoCompleto.style.display = 'none';
-        mostrarMaisBotao.textContent = 'Veja mais';
-    }
+    readMoreButton.addEventListener('click', function() {
+        if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+            hiddenContent.style.display = 'block';
+            content.classList.add('expanded');
+            readMoreButton.textContent = 'Ver menos';
+        } else {
+            hiddenContent.style.display = 'none';
+            content.classList.remove('expanded');
+            readMoreButton.textContent = 'Leia mais';
+        }
+    });
 });
-
-
-
