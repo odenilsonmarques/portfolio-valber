@@ -280,16 +280,11 @@ p {
     color: #ffc107;
 }
 
-.footer-text {
-    padding-top: 20px;
+.copy {
+    padding-top: 10px;
     color: #ededed;
 }
 
-.developed-by {
-    font-size: 12px;
-    padding-top: 10px;
-    color:#ffc107;
-}
 
 /* css padão para aplicação do efeito de transação */
 @keyframes fadeInLeft
